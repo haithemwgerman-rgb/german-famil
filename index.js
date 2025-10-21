@@ -11,21 +11,21 @@ const client = new Client({
 
 // Define roles (name, color, isAdmin)
 const ROLES = [
-  { name: "👑 الملك", color: "GOLD", admin: true },
-  { name: "🤴 ولي العهد", color: "DARK_VIVID_PINK", admin: false },
-  { name: "🦅 القائد الأعلى", color: "DARK_RED", admin: false },
-  { name: "🛡️ القائد", color: "DARK_BLUE", admin: false },
-  { name: "⚔️ رئيس الكتائب", color: "GREY", admin: false },
-  { name: "💣 المنفذ الملكي", color: "BLACK", admin: false },
-  { name: "💼 الوكيل الملكي", color: "DARK_BUT_NOT_BLACK", admin: false },
-  { name: "💎 النبيل", color: "BLUE", admin: false },
-  { name: "🦊 الفارس الذهبي", color: "YELLOW", admin: false },
-  { name: "⚜️ الفارس", color: "LIGHT_GREY", admin: false },
-  { name: "🎯 المتدرب المتقدم", color: "LIGHT_BLUE", admin: false },
-  { name: "🧢 المتدرب", color: "WHITE", admin: false },
-  { name: "💰 الداعم", color: "GREEN", admin: false },
-  { name: "⛔ الموقوف", color: "DARK_RED", admin: false },
-  { name: "⚫ المنفي", color: "DARKER_GREY", admin: false },
+  { name: "👑 الملك", color: "#FFD700", admin: true },
+  { name: "🤴 ولي العهد", color: "#E6BE8A", admin: false },
+  { name: "🦅 القائد الأعلى", color: "#ADD8E6", admin: false },
+  { name: "🛡️ القائد", color: "#C0C0C0", admin: false },
+  { name: "⚔️ رئيس الكتائب", color: "#708090", admin: false },
+  { name: "💣 المنفذ الملكي", color: "#00CED1", admin: false },
+  { name: "💼 الوكيل الملكي", color: "#4682B4", admin: false },
+  { name: "💎 النبيل", color: "#556B2F", admin: false },
+  { name: "🦊 الفارس الذهبي", color: "#FFFFFF", admin: false },
+  { name: "⚜️ الفارس", color: "#D3D3D3", admin: false },
+  { name: "🎯 المتدرب المتقدم", color: "#ADD8E6", admin: false },
+  { name: "🧢 المتدرب", color: "#FFFFFF", admin: false },
+  { name: "💰 الداعم", color: "#008000", admin: false },
+  { name: "⛔ الموقوف", color: "#8B0000", admin: false },
+  { name: "⚫ المنفي", color: "#292929", admin: false },
 ];
 
 const CATEGORIES = [
